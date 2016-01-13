@@ -1,0 +1,29 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: demo.aux
+The style file: GBT7714-2005NLang.bst
+A level-1 auxiliary file: body/abstract.aux
+A level-1 auxiliary file: body/chapter01.aux
+A level-1 auxiliary file: body/chapter02.aux
+A level-1 auxiliary file: body/chapter03.aux
+A level-1 auxiliary file: body/conclusion.aux
+A level-1 auxiliary file: body/app1.aux
+A level-1 auxiliary file: body/app2.aux
+A level-1 auxiliary file: body/pub.aux
+A level-1 auxiliary file: body/thanks.aux
+Database file #1: reference/chap1.bib
+Database file #2: reference/chap2.bib
+-- BUPTThesis.bst version 0.2 (2009/01/25) by Yu Zhang.
+-- http://code.google.com/p/buptthesis/
+-- See the "userguide.pdf" manual for usage information.
+Warning--The editor in DPMG is missing.
+Warning--empty editor in DPMG
+Warning--empty pages in DPMG
+Warning--there's a publisher but no address in JohnD
+Warning--The editor in cnproceed is missing.
+Warning--empty editor in cnproceed
+Warning--empty pages in cnproceed
+Warning--there's neither address nor publisher in NPB2
+Warning--empty pages in xiaoyu2001
+Warning--The refdate in CHRISTINE1998 is missing.
+
+Done.
+(There were 10 warnings)

@@ -1,0 +1,178 @@
+This is XeTeX, Version 3.1415926-2.2-0.9997.4 (MiKTeX 2.9) (preloaded format=xelatex 2015.9.18)  14 JAN 2016 04:40
+entering extended mode
+**thanks.tex
+("E:\my documents\Tex\bit-master\bit-master-thesis-latex\body\thanks.tex"
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for loaded.
+Runaway argument?
+! Paragraph ended before \thanks was complete.
+<to be read again> 
+                   \par 
+l.11 
+     
+? 
+! Undefined control sequence.
+l.12   {\color
+              {red} 希望有牛人来维护咱们学校的模板。}
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12   {\color{r
+                ed} 希望有牛人来维护咱们学校的模板。}
+? 
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no 希 in font nullfont!
+Missing character: There is no 望 in font nullfont!
+Missing character: There is no 有 in font nullfont!
+Missing character: There is no 牛 in font nullfont!
+Missing character: There is no 人 in font nullfont!
+Missing character: There is no 来 in font nullfont!
+Missing character: There is no 维 in font nullfont!
+Missing character: There is no 护 in font nullfont!
+Missing character: There is no 咱 in font nullfont!
+Missing character: There is no 们 in font nullfont!
+Missing character: There is no 学 in font nullfont!
+Missing character: There is no 校 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 模 in font nullfont!
+Missing character: There is no 板 in font nullfont!
+Missing character: There is no 。 in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 12--13
+[]
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14   感
+          谢母校、感谢联盟！
+? 
+Missing character: There is no 感 in font nullfont!
+Missing character: There is no 谢 in font nullfont!
+Missing character: There is no 母 in font nullfont!
+Missing character: There is no 校 in font nullfont!
+Missing character: There is no 、 in font nullfont!
+Missing character: There is no 感 in font nullfont!
+Missing character: There is no 谢 in font nullfont!
+Missing character: There is no 联 in font nullfont!
+Missing character: There is no 盟 in font nullfont!
+Missing character: There is no ！ in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 14--15
+[] 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16   感
+          谢高德纳！
+? 
+Missing character: There is no 感 in font nullfont!
+Missing character: There is no 谢 in font nullfont!
+Missing character: There is no 高 in font nullfont!
+Missing character: There is no 德 in font nullfont!
+Missing character: There is no 纳 in font nullfont!
+Missing character: There is no ！ in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 16--17
+[] 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18   感
+          谢提供交大硕士学位论文~\LaTeX~模板的同学！
+? 
+Missing character: There is no 感 in font nullfont!
+Missing character: There is no 谢 in font nullfont!
+Missing character: There is no 提 in font nullfont!
+Missing character: There is no 供 in font nullfont!
+Missing character: There is no 交 in font nullfont!
+Missing character: There is no 大 in font nullfont!
+Missing character: There is no 硕 in font nullfont!
+Missing character: There is no 士 in font nullfont!
+Missing character: There is no 学 in font nullfont!
+Missing character: There is no 位 in font nullfont!
+Missing character: There is no 论 in font nullfont!
+Missing character: There is no 文 in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no T in font nullfont!
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 18.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 18.
+Missing character: There is no T in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no X in font nullfont!
+Missing character: There is no 模 in font nullfont!
+Missing character: There is no 板 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 同 in font nullfont!
+Missing character: There is no 学 in font nullfont!
+Missing character: There is no ！ in font nullfont!
+
+Overfull \hbox (25.90282pt too wide) in paragraph at lines 18--19
+[] [][]  
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20   开
+          源精神、奉献精神！
+? 
+Missing character: There is no 开 in font nullfont!
+Missing character: There is no 源 in font nullfont!
+Missing character: There is no 精 in font nullfont!
+Missing character: There is no 神 in font nullfont!
+Missing character: There is no 、 in font nullfont!
+Missing character: There is no 奉 in font nullfont!
+Missing character: There is no 献 in font nullfont!
+Missing character: There is no 精 in font nullfont!
+Missing character: There is no 神 in font nullfont!
+Missing character: There is no ！ in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 20--21
+[] 
+ []
+
+! Undefined control sequence.
+l.23  {\zihao
+             {-3}
+? X
+ 
+Here is how much of TeX's memory you used:
+ 7 strings out of 430486
+ 128 string characters out of 3191694
+ 44911 words of memory out of 3000000
+ 3234 multiletter control sequences out of 15000+200000
+ 3640 words of font info for 14 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 17i,3n,12p,65b,72s stack positions out of 5000i,500n,10000p,200000b,50000s
+No pages of output.
