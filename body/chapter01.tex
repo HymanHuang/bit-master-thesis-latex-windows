@@ -7,156 +7,156 @@
 %% last update: Dec, 2012
 %%==================================================
 
-\chapter{这是什么}
+\chapter{����ʲô}
 \label{chap:what}
 
-这是北京理工大学硕士学位学位论文~\LaTeX~模板，其由上海交大版本
-\footnote{网页见\url{http://blog.sina.com.cn/s/blog_5e16f1770100nsqy.html}}修改得到，
-修改依据《北京理工大学博士、硕士学位论文撰写规范》。
+���Ǳ���������ѧ˶ʿѧλѧλ����~\LaTeX~ģ�壬�����Ϻ�����汾
+\footnote{��ҳ��\url{http://blog.sina.com.cn/s/blog_5e16f1770100nsqy.html}}�޸ĵõ���
+�޸����ݡ�����������ѧ��ʿ��˶ʿѧλ����׫д�淶����
 
-\section{模板说明}
+\section{ģ��˵��}
 \label{sec:fastguide}
 
-\subsection{模板特性}
+\subsection{ģ������}
 \label{sec:features}
 
-这个模板基于~CASthesis--0.1j~文档类，中文解决方案是~\XeTeX/\LaTeX~。参考
-文献建议使用~BibTeX~管理，可以生成符合国标~GBT7714~风格的参考文献列表。模
-板在~Windows~和~Linux~下测试通过，更详细的系统要求请参考
-\ref{sec:requirements}。
+���ģ�����~CASthesis--0.1j~�ĵ��࣬���Ľ��������~\XeTeX/\LaTeX~���ο�
+���׽���ʹ��~BibTeX~�������������ɷ��Ϲ���~GBT7714~���Ĳο������б���ģ
+����~Windows~��~Linux~�²���ͨ��������ϸ��ϵͳҪ����ο�
+\ref{sec:requirements}��
 
-模板的外观表现和功能都放
-在~bitmaster-xetex.cls~和~bitmaster-xetex.cfg~中，在对外观进行细微调整
-时，只需要更新这两个文件，不需要对.tex源文件做修改。这也给模板更新带来了
-极大方便。
+ģ�����۱��ֺ͹��ܶ���
+��~bitmaster-xetex.cls~��~bitmaster-xetex.cfg~�У��ڶ���۽���ϸ΢����
+ʱ��ֻ��Ҫ�����������ļ�������Ҫ��.texԴ�ļ����޸ġ���Ҳ��ģ����´�����
+���󷽱㡣
 
-最后，给出一个列表，罗列一下这个模板的功能要点：
+��󣬸���һ���б�������һ�����ģ��Ĺ���Ҫ�㣺
 
 \begin{itemize}
-\item \inv  使用~\XeTeX~引擎处理中文，{\color{red} 我在ubuntu上安装了
-  texlive2011和windows中文字体，具体方法可参见\url{http://blog.163.com/warrior511@126/blog/static/16798651220114984811658/}}；
-\item \inv 包含中文字符的源文件(.tex, .bib, .cfg)，编码都使用UTF-8；
-\item \inv 使用~BibTeX~管理参考文献。参考文献表现形式(格式)受~.bst~控制，方便
-  在不同风格间切换，目前生成的列表符合国标GBT7714要求；
-\item \inv 可以直接插入EPS/PDF/JPG/PNG格式的图像，并且\emph{不需要}~bounding box~文件(.bb)。
-\item \inv 模板的格式受~bitmater-xetex.cls~和~bitmaster-xetex.cfg~控制，方便模
-  板更新和模板修改。
+\item \inv  ʹ��~\XeTeX~���洦�����ģ�{\color{red} ����ubuntu�ϰ�װ��
+  texlive2011��windows�������壬���巽���ɲμ�\url{http://blog.163.com/warrior511@126/blog/static/16798651220114984811658/}}��
+\item \inv ���������ַ���Դ�ļ�(.tex, .bib, .cfg)�����붼ʹ��UTF-8��
+\item \inv ʹ��~BibTeX~�����ο����ס��ο����ױ�����ʽ(��ʽ)��~.bst~���ƣ�����
+  �ڲ�ͬ�����л���Ŀǰ���ɵ��б����Ϲ���GBT7714Ҫ��
+\item \inv ����ֱ�Ӳ���EPS/PDF/JPG/PNG��ʽ��ͼ�񣬲���\emph{����Ҫ}~bounding box~�ļ�(.bb)��
+\item \inv ģ��ĸ�ʽ��~bitmater-xetex.cls~��~bitmaster-xetex.cfg~���ƣ�����ģ
+  ����º�ģ���޸ġ�
 \end{itemize}
 
-\subsection{系统要求}
+\subsection{ϵͳҪ��}
 \label{sec:requirements}
 
-要使用这个模板协助你完成研究生学位论文的创作，下面的条件必须满足：
+Ҫʹ�����ģ��Э��������о���ѧλ���ĵĴ���������������������㣺
 
 \begin{itemize}
-\item \inv 操作系统字体目录中有中文字体（adobe或windows字体均可）；
-\item \inv \TeX~系统有~\XeTeX~引擎；
-\item \inv \TeX~系统有~ctex~宏包；
-\item \inv \TeX~系统的fontspec宏包(fontspec.sty)足够新；
-\item \inv 你有使用~\LaTeX~的经验。
+\item \inv ����ϵͳ����Ŀ¼�����������壨adobe��windows������ɣ���
+\item \inv \TeX~ϵͳ��~\XeTeX~���棻
+\item \inv \TeX~ϵͳ��~ctex~�����
+\item \inv \TeX~ϵͳ��fontspec���(fontspec.sty)�㹻�£�
+\item \inv ����ʹ��~\LaTeX~�ľ��顣
 \end{itemize}
 
  
-\subsection{模板文件布局}
+\subsection{ģ���ļ�����}
 \label{sec:layout}
 
-\begin{lstlisting}[basicstyle=\small\ttfamily,caption={模板文件布局},label=layout,float,numbers=none]
-  ├─ diss.tex
-  ├── README.pdf
-  ├── bitmaster-xetex.cfg
-  ├── bitmaster-xetex.cls
-  ├── body
-  │   ├── abstract.tex
-  │   ├── app1.tex
-  │   ├── app2.tex
-  │   ├── chapter01.tex
-  │   ├── chapter02.tex
-  │   ├── conclusion.tex
-  │   ├── projects.tex
-  │   ├── pub.tex
-  │   ├── resume.tex
-  │   ├── symbol.tex
-  │   └── thanks.tex
-  ├── figures
-  │   └── chap2
-  ├── GBT7714-2005NLang.bst
-  ├── reference
-  │   ├── chap1.bib
-  │   └── chap2.bib
-  ├── run.sh
+\begin{lstlisting}[basicstyle=\small\ttfamily,caption={ģ���ļ�����},label=layout,float,numbers=none]
+  ���� diss.tex
+  ������ README.pdf
+  ������ bitmaster-xetex.cfg
+  ������ bitmaster-xetex.cls
+  ������ body
+  ��   ������ abstract.tex
+  ��   ������ app1.tex
+  ��   ������ app2.tex
+  ��   ������ chapter01.tex
+  ��   ������ chapter02.tex
+  ��   ������ conclusion.tex
+  ��   ������ projects.tex
+  ��   ������ pub.tex
+  ��   ������ resume.tex
+  ��   ������ symbol.tex
+  ��   ������ thanks.tex
+  ������ figures
+  ��   ������ chap2
+  ������ GBT7714-2005NLang.bst
+  ������ reference
+  ��   ������ chap1.bib
+  ��   ������ chap2.bib
+  ������ run.sh
   
       
 \end{lstlisting}
 
-你拿到手的模板文件大致会包含代码\ref{layout}所列的文件，乍看起来还是挺令
-人头大的。并且，这还是“干净”的时候，等到真正开始处理的时候，会冒出相当多
-的“中间文件”，这又会使情况变得更糟糕。所以，有必要对这些文件做一些简要说
-明。看完这部分以后，你应该发现，其实你要关心的文件类型并没有那么多。
+���õ��ֵ�ģ���ļ����»��������\ref{layout}���е��ļ���է����������ͦ��
+��ͷ��ġ����ң��⻹�ǡ��ɾ�����ʱ�򣬵ȵ�������ʼ������ʱ�򣬻�ð���൱��
+�ġ��м��ļ��������ֻ�ʹ�����ø���⡣���ԣ��б�Ҫ����Щ�ļ���һЩ��Ҫ˵
+���������ⲿ���Ժ���Ӧ�÷��֣���ʵ��Ҫ���ĵ��ļ����Ͳ�û����ô�ࡣ
 
-\subsubsection{格式控制文件}
+\subsubsection{��ʽ�����ļ�}
 \label{sec:format}
 
-格式控制文件控制着论文的表现形式，包括以下几个文件：
-bitmaster-xetex.cfg, bitmaster-xetex.cls~和~GBT7714-2005NLang.bst。
-其中，``.cfg''和``.cls''控制论文主体格式，``.bst''控制参考文献条目的格式，
+��ʽ�����ļ����������ĵı�����ʽ���������¼����ļ���
+bitmaster-xetex.cfg, bitmaster-xetex.cls~��~GBT7714-2005NLang.bst��
+���У�``.cfg''��``.cls''�������������ʽ��``.bst''���Ʋο�������Ŀ�ĸ�ʽ��
 
-一般用户最好``忽略''格式控制文件的存在，不要去碰它们。
-有其他格式需要，欢迎到板上发贴。
-对于因为擅自更改格式控制文件出现的问题，我一概不负责。{\large\smiley}
+һ���û����``����''��ʽ�����ļ��Ĵ��ڣ���Ҫȥ�����ǡ�
+��������ʽ��Ҫ����ӭ�����Ϸ�����
+������Ϊ���Ը��ĸ�ʽ�����ļ����ֵ����⣬��һ�Ų�����{\large\smiley}
 
-\subsubsection{主控文件~demo.tex}
+\subsubsection{�����ļ�~demo.tex}
 \label{sec:demotex}
 
-主控文件~demo.tex~的作用就是将你分散在多个文件中的内容``整合''成一篇完整的论文。
-使用这个模板撰写学位论文时，你的学位论文内容和素材会被``拆散''到各个文件中：
-譬如各章正文、各个附录、各章参考文献等等。
-在~demo.tex~中通过``include''命令将论文的各个部分包含进来，从而形成一篇结构完成的论文。
-封面页中的论文标题、作者等中英文信息，也是在~demo.tex~中填写。
-部分可能会频繁修改的设置，譬如行间距、图片文件目录等，我也放在了demo.tex中。
-你也可以在demo.tex中按照自己的需要引入一些的宏包
-\footnote{我对宏包的态度是：只有当你需要在文档中使用那个宏包时，才需要在导言区中用~usepackage~引入该宏包。如若不然，通过usepackage引入一大堆不被用到的宏包，必然是一场灾难。由于一开始没有一致的设计目标，\LaTeX~的各宏包几乎都是独立发展起来的，因重定义命令导致的宏包冲突屡见不鲜。}。
+�����ļ�~demo.tex~�����þ��ǽ����ɢ�ڶ���ļ��е�����``����''��һƪ���������ġ�
+ʹ�����ģ��׫дѧλ����ʱ�����ѧλ�������ݺ��زĻᱻ``��ɢ''�������ļ��У�
+Ʃ��������ġ�������¼�����²ο����׵ȵȡ�
+��~demo.tex~��ͨ��``include''������ĵĸ������ְ����������Ӷ��γ�һƪ�ṹ��ɵ����ġ�
+����ҳ�е����ı��⡢���ߵ���Ӣ����Ϣ��Ҳ����~demo.tex~����д��
+���ֿ��ܻ�Ƶ���޸ĵ����ã�Ʃ���м�ࡢͼƬ�ļ�Ŀ¼�ȣ���Ҳ������demo.tex�С�
+��Ҳ������demo.tex�а����Լ�����Ҫ����һЩ�ĺ��
+\footnote{�ҶԺ����̬���ǣ�ֻ�е�����Ҫ���ĵ���ʹ���Ǹ����ʱ������Ҫ�ڵ���������~usepackage~����ú����������Ȼ��ͨ��usepackage����һ��Ѳ����õ��ĺ������Ȼ��һ�����ѡ�����һ��ʼû��һ�µ����Ŀ�꣬\LaTeX~�ĸ�����������Ƕ�����չ�����ģ����ض�������µĺ����ͻ�ż����ʡ�}��
 
-大致而言，在~demo.tex~中，大家只要留意把``章''一级的内容，以及各章参考文
-献内容包含进来就可以了。需要注意，处理文档时所有的操作命令
-{}\cndash{}xelatex, bibtex等，都是作用在~demo.tex~上，而\emph{不是}后面这
-些``分散''的文件，请参考\ref{sec:process}小节。
+���¶��ԣ���~demo.tex~�У����ֻҪ�����``��''һ�������ݣ��Լ����²ο���
+�����ݰ��������Ϳ����ˡ���Ҫע�⣬�����ĵ�ʱ���еĲ�������
+{}\cndash{}xelatex, bibtex�ȣ�����������~demo.tex~�ϣ���\emph{����}������
+Щ``��ɢ''���ļ�����ο�\ref{sec:process}С�ڡ�
 
-\subsubsection{论文主体文件夹body}
+\subsubsection{���������ļ���body}
 \label{sec:thesisbody}
 
-这一部分是论文的主体，是以``章''为单位划分的。
+��һ���������ĵ����壬����``��''Ϊ��λ���ֵġ�
 
-正文前部分(frontmatter)：中英文摘要(abstract.tex)。其他部分，诸如中英文封
-面、授权信息等，都是根据~demo.tex~所填的信息``画''好了，不单独弄成文件。
+����ǰ����(frontmatter)����Ӣ��ժҪ(abstract.tex)���������֣�������Ӣ�ķ�
+�桢��Ȩ��Ϣ�ȣ����Ǹ���~demo.tex~�������Ϣ``��''���ˣ�������Ū���ļ���
 
-正文部分(mainmatter)：自然就是各章内容~chapter\emph{xxx}.tex~了，这部分无法自动生成{\LARGE\Smiley}
+���Ĳ���(mainmatter)����Ȼ���Ǹ�������~chapter\emph{xxx}.tex~�ˣ��ⲿ���޷��Զ�����{\LARGE\Smiley}
 
-正文后的部分(backmatter)：附录(app\emph{xx}.tex)；致谢(thuanks.tex)；攻读
-学位论文期间发表的学术论文目录(pub.tex)；个人简历(resume.tex)。参考文献列
-表是``生成''的，也不作为一个单独的文件。另外，学校的硕士研究生学位论文模
-板中，也没有要求加入个人建立，所以我没有在~demo.tex~中引入resume.tex。
+���ĺ�Ĳ���(backmatter)����¼(app\emph{xx}.tex)����л(thuanks.tex)������
+ѧλ�����ڼ䷢����ѧ������Ŀ¼(pub.tex)�����˼���(resume.tex)���ο�������
+����``����''�ģ�Ҳ����Ϊһ���������ļ������⣬ѧУ��˶ʿ�о���ѧλ����ģ
+���У�Ҳû��Ҫ�������˽�����������û����~demo.tex~������resume.tex��
 
-\subsubsection{图片文件夹~figures}
+\subsubsection{ͼƬ�ļ���~figures}
 \label{sec:figuresdir}
 
-figures~文件夹放置了需要插入文档中的图片文件(PNG/JPG/PDF/EPS)，建议按章再
-划分子目录。
+figures~�ļ��з�������Ҫ�����ĵ��е�ͼƬ�ļ�(PNG/JPG/PDF/EPS)�����鰴����
+������Ŀ¼��
 
-\subsubsection{参考文献数据库文件夹~reference}
+\subsubsection{�ο��������ݿ��ļ���~reference}
 \label{sec:bibdir}
 
-reference~文件夹放置的是各章``可能''会被引用的参考文献文件。参考文献的元
-数据，例如作者、文献名称、年限、出版地等，会以一定的格式记录在纯文本文
-件.bib中。最终的参考文献列表是BibTeX处理.bib后得到的，名为~demo.bbl。将参
-考文献按章划分的一个好处是，可以在各章后生成独立的参考文献，不过，现在看
-来没有这个必要。关于参考文献的管理，可以进一步参考第\ref{chap:example}章
-中的例子。
+reference~�ļ��з��õ��Ǹ���``����''�ᱻ���õĲο������ļ����ο����׵�Ԫ
+���ݣ��������ߡ��������ơ����ޡ�����صȣ�����һ���ĸ�ʽ��¼�ڴ��ı���
+��.bib�С����յĲο������б���BibTeX����.bib��õ��ģ���Ϊ~demo.bbl������
+�����װ��»��ֵ�һ���ô��ǣ������ڸ��º����ɶ����Ĳο����ף����������ڿ�
+��û�������Ҫ�����ڲο����׵Ĺ��������Խ�һ���ο���\ref{chap:example}��
+�е����ӡ�
 
-\subsection{如何使用}
+\subsection{���ʹ��}
 \label{sec:process}
 
-模板使用~\XeTeX~引擎提供的~xelatex~的命令处理，作用于“主控文档”demo.tex。
-并且，可以省略扩展名。完整的处理流程是：
+ģ��ʹ��~\XeTeX~�����ṩ��~xelatex~��������������ڡ������ĵ���demo.tex��
+���ң�����ʡ����չ���������Ĵ��������ǣ�
 \begin{enumerate}
 \item[] \inv xelatex -no-pdf -{}-interaction=nonstopmode demo
 \item[] \inv bibtex demo 
@@ -164,66 +164,66 @@ reference~文件夹放置的是各章``可能''会被引用的参考文献文件
 \item[] \inv xelatex -{}-interaction=nonstopmode demo 
 \end{enumerate}
 
-运行bibtex的时候会提示一些错误，猜测是~{{\sc Bib}\TeX}~对UTF-8支持不充
-分，一般不影响最终结果。留意因为拼写错误导致的``找不到文献错误''即可。
+����bibtex��ʱ�����ʾһЩ���󣬲²���~{{\sc Bib}\TeX}~��UTF-8֧�ֲ���
+�֣�һ�㲻Ӱ�����ս����������Ϊƴд�����µ�``�Ҳ������״���''���ɡ�
 
-加入~\verb|--interaction=nonstopmode|~参数是不让错误打断编译过程。
-\XeTeX~仍存在一些宏包兼容性问题，所以会产生一些莫名其妙的错误(通常是重定
-义错误)，而这些错误通常不会影响最终的编译结果\footnote{xunicode宏包就很蛋
-  痛地重定义了几个数学符号，还有诸如$\backslash$nobreakspace命令}。为方便
-使用，我把处理过程写到了run.sh(for Linux)和run.bat(for Windows)批处理文件
-中。更规范的应该是使用Makefile，可惜笔者功力不够，希望哪位高人把好用的
-Makefile补上。
+����~\verb|--interaction=nonstopmode|~�����ǲ��ô����ϱ�����̡�
+\XeTeX~�Դ���һЩ������������⣬���Ի����һЩĪ������Ĵ���(ͨ�����ض�
+�����)������Щ����ͨ������Ӱ�����յı�����\footnote{xunicode����ͺܵ�
+  ʹ���ض����˼�����ѧ���ţ���������$\backslash$nobreakspace����}��Ϊ����
+ʹ�ã��ҰѴ�������д����run.sh(for Linux)��run.bat(for Windows)�������ļ�
+�С����淶��Ӧ����ʹ��Makefile����ϧ���߹���������ϣ����λ���˰Ѻ��õ�
+Makefile���ϡ�
 
-基本处理流程就是这样，一些~\LaTeX~排版的小例子可以参考第二章。
+�����������̾���������һЩ~\LaTeX~�Ű��С���ӿ��Բο��ڶ��¡�
 
-\section{硕士学位论文格式的一些说明}
+\section{˶ʿѧλ���ĸ�ʽ��һЩ˵��}
 \label{sec:thesisformat}
 
 
-所有关于研究生学位论文模板的要求，我参考了《北京理工大学博士、硕士学位论
-  文撰写规范》和研究生院提供的相关参考模板。可惜的是，很多地方参考模板同
-规范相违背。例如，规范中指出，目录一级节标题采用小四、加粗，而在模板中并未
-加粗。对于这种问题，基本上以大多数同学采用的方式保持一致，没有严格按照规
-范进行。
+���й����о���ѧλ����ģ���Ҫ���Ҳο��ˡ�����������ѧ��ʿ��˶ʿѧλ��
+  ��׫д�淶�����о���Ժ�ṩ����زο�ģ�塣��ϧ���ǣ��ܶ�ط��ο�ģ��ͬ
+�淶��Υ�������磬�淶��ָ����Ŀ¼һ���ڱ������С�ġ��Ӵ֣�����ģ���в�δ
+�Ӵ֡������������⣬�������Դ����ͬѧ���õķ�ʽ����һ�£�û���ϸ��չ�
+�����С�
 
-这个模板是为``单面打印''准备的，但也支持``双面打印''。你可以在~demo.tex~
-中设定文档类的语句中进行相应修改：
+���ģ����Ϊ``�����ӡ''׼���ģ���Ҳ֧��``˫���ӡ''���������~demo.tex~
+���趨�ĵ��������н�����Ӧ�޸ģ�
 
 \begin{quote}
   {\small\verb+\documentclass[cs4size, a4paer, cs4size, oneside, openany]{bitmaster-xetex}+}
 \end{quote}
 
 
-关于页眉页脚，按照BIT要求：页眉为``北京理工大学XX学位论文''，XX表示博士或
-硕士，宋体、5号，居中排列；页眉从中文摘要开始标注，论文页眉奇偶页相同。页
-码从第1章（绪论）开始按阿拉伯数字（1，2，3……）连续编排，之前的部分(中文摘
-要、Abstract、目录等)用大写罗马数字（Ⅰ，Ⅱ，Ⅲ……）单独编排。
+����ҳüҳ�ţ�����BITҪ��ҳüΪ``����������ѧXXѧλ����''��XX��ʾ��ʿ��
+˶ʿ�����塢5�ţ��������У�ҳü������ժҪ��ʼ��ע������ҳü��żҳ��ͬ��ҳ
+��ӵ�1�£����ۣ���ʼ�����������֣�1��2��3�������������ţ�֮ǰ�Ĳ���(����ժ
+Ҫ��Abstract��Ŀ¼��)�ô�д�������֣��񣬢򣬢󡭡����������š�
 
-研究生院要求参考文献必须符合~GBT7714~风格，学校明确提出使用这个标准而不是
-自己拍脑袋想出别的做法，应该算是谢天谢地了。使用这个模板，结合BibTeX，可
-以很方便地生成符合GB标准的参考文献列表。
+�о���ԺҪ��ο����ױ������~GBT7714~���ѧУ��ȷ���ʹ�������׼������
+�Լ����Դ�������������Ӧ������л��л���ˡ�ʹ�����ģ�壬���BibTeX����
+�Ժܷ�������ɷ���GB��׼�Ĳο������б���
 
-\section{bit-master-thesis模板类简介}
+\section{bit-master-thesisģ������}
 \label{sec:bit.cls}
-论文模板主要在bit-master-thesis.cls文件中进行定义，现对其进行简单介绍。
-\subsection{页面设置}
-页边距设置如下，{\color{red}好像存在问题，需进一步解决}：
+����ģ����Ҫ��bit-master-thesis.cls�ļ��н��ж��壬�ֶ�����м򵥽��ܡ�
+\subsection{ҳ������}
+ҳ�߾��������£�{\color{red}����������⣬���һ�����}��
 \begin{lstlisting}
 \usepackage[top=3.5cm,headheight=25mm,headsep=3mm,footskip=8mm,bottom=2.5cm,left=2.7cm,right=2.7cm]{geometry}
 \end{lstlisting}
 
-行距离设置，按照要求，应该为22榜，如下设置，效果基本相同：
+�о������ã�����Ҫ��Ӧ��Ϊ22���������ã�Ч��������ͬ��
 \begin{lstlisting}
 \RequirePackage{setspace}
 \setstretch{1.4}
 \end{lstlisting}
 
-\subsection{章节格式与目录}
-严格按照规范，采用如下代码实现：
+\subsection{�½ڸ�ʽ��Ŀ¼}
+�ϸ��չ淶���������´���ʵ�֣�
 \begin{lstlisting}
-%% 设置章节格式
-\CTEXsetup[number={\arabic{chapter}},name={第,章},
+%% �����½ڸ�ʽ
+\CTEXsetup[number={\arabic{chapter}},name={��,��},
             nameformat={\bfseries\heiti\centering\zihao{3}},
             titleformat={\bfseries\heiti\zihao{3}},
             afterskip={30pt}]{chapter}
@@ -236,7 +236,7 @@ Makefile补上。
 \CTEXsetup[format={\Large\bfseries}]{section}
 \CTEXsetup[beforeskip={10pt}]{chapter}
 
-%% 用\textsf{titletoc}设定目录格式。
+%% ��\textsf{titletoc}�趨Ŀ¼��ʽ��
 \RequirePackage{titletoc}
 \titlecontents{chapter}[0pt]{\vspace{0.25\baselineskip} \songti \zihao{4}}
     {\thecontentslabel\quad}{}
@@ -249,10 +249,10 @@ Makefile补上。
     {\hspace{.5em}\titlerule*{.}\contentspage}
 \end{lstlisting}
 
-\subsection{封面设计}
-这里我们为封面设计提供了众多命令，以中文封面为例：
+\subsection{�������}
+��������Ϊ��������ṩ���ڶ���������ķ���Ϊ����
 \begin{lstlisting}
-%%%%中文标题页的可用命令
+%%%%���ı���ҳ�Ŀ�������
 \newcommand\classification[1]{\def\CAST@value@classification{#1}}
 \newcommand\studentnumber[1]{\def\CAST@value@studentnumber{#1}}
 \newcommand\confidential[1]{\def\CAST@value@confidential{#1}}
@@ -273,24 +273,24 @@ Makefile补上。
 \newcommand\chairman[1]{\def\CAST@value@chairman{#1}}
 \end{lstlisting}
 
-使用这些命令，即可在主控文件中设置自己的封面，例如本文档在demo.tex中如下
-设置：
+ʹ����Щ��������������ļ��������Լ��ķ��棬���籾�ĵ���demo.tex������
+���ã�
 \begin{lstlisting}
 \classification{TQ028.1}
 \UDC{111}
-\title{\LARGE{BIT硕士论文\LaTeX 模板}}
-\author{大眼小蚂蚁}
-\institute{机电学院}
-\advisor{教授}
-\chairman{离散}
-\degree{工学硕士}
-\major{兵器科学与技术}
-\school{北京理工大学}
-\defenddate{2012年12月}
+\title{\LARGE{BIT˶ʿ����\LaTeX ģ��}}
+\author{����С����}
+\institute{����ѧԺ}
+\advisor{����}
+\chairman{��ɢ}
+\degree{��ѧ˶ʿ}
+\major{������ѧ�뼼��}
+\school{����������ѧ}
+\defenddate{2012��12��}
 \studentnumber{2120100277}
 \end{lstlisting}
 
-这些变量设置好之后，\\使用\verb+\maketitle+产生封面的第一二页；\\使用
-\verb+\makeenglishtitle+产生英文标题页；\\使用\verb+\makeVerticalTitle+产
-生竖着排放的标题页;\\使用\verb+\makeDeclareOriginal+产生声明页。
+��Щ�������ú�֮��\\ʹ��\verb+\maketitle+��������ĵ�һ��ҳ��\\ʹ��
+\verb+\makeenglishtitle+����Ӣ�ı���ҳ��\\ʹ��\verb+\makeVerticalTitle+��
+�������ŷŵı���ҳ;\\ʹ��\verb+\makeDeclareOriginal+��������ҳ��
 

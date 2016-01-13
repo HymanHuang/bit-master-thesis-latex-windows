@@ -1,4 +1,4 @@
-ï»¿%==================================================
+%==================================================
 %% bitmaster-xetex.cls for BIT Master Thesis
 %% based on CASthesis.cls -- http://www.ctex.org/PackageCASthesis
 %% modified by tingzhen.li@gmail.com
@@ -9,7 +9,7 @@
 
 %% math packages -- conflict with xunicode
 \RequirePackage{amsmath,amsthm,amsfonts,amssymb,bm,mathrsfs}
-% ç›´ç«‹å¸Œè…Šå­—æ¯å­—ä½“
+% Ö±Á¢Ï£À°×ÖÄ¸×ÖÌå
 \RequirePackage{upgreek}
 
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
@@ -25,13 +25,13 @@
 \ProcessOptions
 %\LoadClass[fancyhdr,fntef,UTF8,adobefonts]{ctexbook}[2005/11/25]
 \LoadClass[fancyhdr,fntef,UTF8]{ctexbook}[2005/11/25]
-%% å¯¼å…¥ bitmaster-xetex.cfg æ–‡ä»¶
+%% µ¼Èë bitmaster-xetex.cfg ÎÄ¼ş
 \AtEndOfPackage{\makeatletter\input{bitmaster-xetex.cfg}\makeatother}
 
-%% å½“å‰æ¨¡æ¿çš„ç‰ˆæœ¬
+%% µ±Ç°Ä£°åµÄ°æ±¾
 \newcommand{\version}{\CAST@value@templateversion}
 
-%% é¡µè¾¹è·è®¾ç½®
+%% Ò³±ß¾àÉèÖÃ
 %added by ltz
 %\usepackage[top=3.5cm,headheight=25mm,headsep=3mm,footskip=8mm,bottom=2.5cm,left=2.7cm,right=2.7cm]{geometry}
 \usepackage[top=3cm,headheight=5mm,headsep=4mm,footskip=8mm,bottom=1.8cm,left=2.7cm,right=2.7cm]{geometry}
@@ -41,12 +41,12 @@
 \def\cleardoublepage{\clearpage\if@twoside \ifodd\c@page\else
   \thispagestyle{empty}%
   \hbox{}\newpage\if@twocolumn\hbox{}\newpage\fi\fi\fi}
-%è®¾ç½®è¡Œè·ï¼Œå¤§æ¦‚ä¸º22æ¦œï¼Œè¾ƒéº»çƒ¦
+%ÉèÖÃĞĞ¾à£¬´ó¸ÅÎª22°ñ£¬½ÏÂé·³
 \RequirePackage{setspace}
 \setstretch{1.4}
 
-%% è®¾ç½®ç« èŠ‚æ ¼å¼
-\CTEXsetup[number={\arabic{chapter}},name={ç¬¬,ç« },
+%% ÉèÖÃÕÂ½Ú¸ñÊ½
+\CTEXsetup[number={\arabic{chapter}},name={µÚ,ÕÂ},
             nameformat={\bfseries\heiti\centering\zihao{3}},
             titleformat={\bfseries\heiti\zihao{3}},
             afterskip={30pt}]{chapter}
@@ -59,7 +59,7 @@
 \CTEXsetup[format={\Large\bfseries}]{section}
 \CTEXsetup[beforeskip={10pt}]{chapter}
 
-%% ç”¨\textsf{titletoc}è®¾å®šç›®å½•æ ¼å¼ã€‚
+%% ÓÃ\textsf{titletoc}Éè¶¨Ä¿Â¼¸ñÊ½¡£
 \RequirePackage{titletoc}
 \titlecontents{chapter}[0pt]{\vspace{0.25\baselineskip} \songti \zihao{4}}
     {\thecontentslabel\quad}{}
@@ -71,16 +71,16 @@
     {\thecontentslabel\quad}{}
     {\hspace{.5em}\titlerule*{.}\contentspage}
 
-%% é€‰æ‹©ç¼–è¯‘
+%% Ñ¡Ôñ±àÒë
 \RequirePackage{ifthen}
 
 %% check pdfTeX mode
 \RequirePackage{ifpdf}
 
-%% fancyhdr é¡µçœ‰é¡µè„šæ§åˆ¶
+%% fancyhdr Ò³Ã¼Ò³½Å¿ØÖÆ
 \RequirePackage{fancyhdr}
 
-%% å¤æ‚è¡¨æ ¼
+%% ¸´ÔÓ±í¸ñ
 \RequirePackage{threeparttable}
 \RequirePackage{dcolumn}
 \RequirePackage{multirow}
@@ -88,13 +88,13 @@
 \newcolumntype{d}[1]{D{.}{.}{#1}}% or D{.}{,}{#1} or D{.}{\cdot}{#1}
 
 
-%% å®šä¹‰å‡ ä¸ªå¸¸ç”¨çš„æ•°å­¦å¸¸é‡ç¬¦å·
-\newcommand{\me}{\mathrm{e}} %å®šä¹‰ å¯¹æ•°å¸¸æ•°eï¼Œè™šæ•°ç¬¦å·i,jä»¥åŠå¾®åˆ†ç®—å­dä¸ºç›´ç«‹ä½“ã€‚
+%% ¶¨Òå¼¸¸ö³£ÓÃµÄÊıÑ§³£Á¿·ûºÅ
+\newcommand{\me}{\mathrm{e}} %¶¨Òå ¶ÔÊı³£Êıe£¬ĞéÊı·ûºÅi,jÒÔ¼°Î¢·ÖËã×ÓdÎªÖ±Á¢Ìå¡£
 \newcommand{\mi}{\mathrm{i}}
 \newcommand{\mj}{\mathrm{j}}
 \newcommand{\dif}{\mathrm{d}}
 
-% å¯ä¼¸é•¿çš„æ•°å­¦ç¬¦å·
+% ¿ÉÉì³¤µÄÊıÑ§·ûºÅ
 % \makeatletter
 \def\ExtendSymbol#1#2#3#4#5{\ext@arrow 0099{\arrowfill@#1#2#3}{#4}{#5}}
 \def\RightExtendSymbol#1#2#3#4#5{\ext@arrow 0359{\arrowfill@#1#2#3}{#4}{#5}}
@@ -111,7 +111,7 @@
 % Step 1. Import fontspec and xltxtra
 % Step 2. Import old font package
 % Step 3. Use fontenc to set encoding to T1
-%% è‹±æ–‡å­—ä½“ä½¿ç”¨ Times New Roman
+%% Ó¢ÎÄ×ÖÌåÊ¹ÓÃ Times New Roman
 \RequirePackage{fontspec}
 \RequirePackage{xltxtra} % \XeTeX Logo
 %% Times Fonts
@@ -121,18 +121,18 @@
 
 
 
-% é‡å®šä¹‰\nobreakspaceå‘½ä»¤ -- xetexä¸T1å­—ä½“åŒ…ä¸€èµ·ä½¿ç”¨æ—¶å‡ºç°çš„é—®é¢˜
+% ÖØ¶¨Òå\nobreakspaceÃüÁî -- xetexÓëT1×ÖÌå°üÒ»ÆğÊ¹ÓÃÊ±³öÏÖµÄÎÊÌâ
 % Ref: http://bbs.ctex.org/viewthread.php?tid=60547&extra=page%3D1&page=2
 \DeclareRobustCommand\nobreakspace{\leavevmode\nobreak\ }
 
 
 %% graphics packages
 \RequirePackage{graphicx}
-%% å¹¶åˆ—å­å›¾
+%% ²¢ÁĞ×ÓÍ¼
 \RequirePackage{subfigure}
 
 \RequirePackage{wrapfig}
-%% å¦‚æœæ’å…¥çš„å›¾ç‰‡æ²¡æœ‰æŒ‡å®šæ‰©å±•åï¼Œé‚£ä¹ˆä¾æ¬¡æœç´¢ä¸‹é¢çš„æ‰©å±•åæ‰€å¯¹åº”çš„æ–‡ä»¶
+%% Èç¹û²åÈëµÄÍ¼Æ¬Ã»ÓĞÖ¸¶¨À©Õ¹Ãû£¬ÄÇÃ´ÒÀ´ÎËÑË÷ÏÂÃæµÄÀ©Õ¹ÃûËù¶ÔÓ¦µÄÎÄ¼ş
 \DeclareGraphicsExtensions{.pdf,.eps,.png,.jpg,.jpeg}
 % ccaption -- bicaption
 \RequirePackage{ccaption}
@@ -143,67 +143,67 @@
 
 %% sort and compress citations
 \RequirePackage[sort&compress,numbers]{natbib}
-% ä¸Šæ ‡å¼•ç”¨
+% ÉÏ±êÒıÓÃ
 \newcommand{\upcite}[1]{\textsuperscript{\cite{#1}}}
 
 
 %_ added by wei.jianwen@gmail.com
-% å°†æµ®åŠ¨å‚æ•°è®¾ä¸ºè¾ƒå®½æ¾çš„å€¼
+% ½«¸¡¶¯²ÎÊıÉèÎª½Ï¿íËÉµÄÖµ
 \renewcommand{\textfraction}{0.15}
 \renewcommand{\topfraction}{0.85}
 \renewcommand{\bottomfraction}{0.65}
 \renewcommand{\floatpagefraction}{0.60}
 
 
-% å®šå…¬å¼ã€å›¾ã€è¡¨ç¼–å·ä¸º"3-1"çš„å½¢å¼ï¼Œå³åˆ†éš”ç¬¦ç”±.å˜ä¸ºçŸ­æ 
+% ¶¨¹«Ê½¡¢Í¼¡¢±í±àºÅÎª"3-1"µÄĞÎÊ½£¬¼´·Ö¸ô·ûÓÉ.±äÎª¶Ì¸Ü
 \renewcommand\theequation{\arabic{chapter}.\arabic{equation}}
 \renewcommand\thefigure{\arabic{chapter}.\arabic{figure}}
 \renewcommand\thetable{\arabic{chapter}.\arabic{table}}
 
-% é¢œè‰²å®åŒ…
+% ÑÕÉ«ºê°ü
 \RequirePackage{xcolor}
 
 
-%% ä¸€äº›æœ‰è¶£çš„ç¬¦å·å›¾æ¡ˆ
+%% Ò»Ğ©ÓĞÈ¤µÄ·ûºÅÍ¼°¸
 \RequirePackage{marvosym}
 \RequirePackage{wasysym}
 
 
-% ä¸­æ–‡ç ´æŠ˜å·
+% ÖĞÎÄÆÆÕÛºÅ
 \newcommand{\cndash}{\rule{0.0em}{0pt}\rule[0.35em]{1.4em}{0.05em}\rule{0.2em}{0pt}}
 
-% listings æºä»£ç æ˜¾ç¤ºå®åŒ…
+% listings Ô´´úÂëÏÔÊ¾ºê°ü
 \RequirePackage{listings}
 \lstset{tabsize=4, %
-  frame=shadowbox, %æŠŠä»£ç ç”¨å¸¦æœ‰é˜´å½±çš„æ¡†åœˆèµ·æ¥
-  commentstyle=\color{red!50!green!50!blue!50},%æµ…ç°è‰²çš„æ³¨é‡Š
-  rulesepcolor=\color{red!20!green!20!blue!20},%ä»£ç å—è¾¹æ¡†ä¸ºæ·¡é’è‰²
-  keywordstyle=\color{blue!90}\bfseries, %ä»£ç å…³é”®å­—çš„é¢œè‰²ä¸ºè“è‰²ï¼Œç²—ä½“
-  showstringspaces=false,%ä¸æ˜¾ç¤ºä»£ç å­—ç¬¦ä¸²ä¸­é—´çš„ç©ºæ ¼æ ‡è®°
-  stringstyle=\ttfamily, % ä»£ç å­—ç¬¦ä¸²çš„ç‰¹æ®Šæ ¼å¼
+  frame=shadowbox, %°Ñ´úÂëÓÃ´øÓĞÒõÓ°µÄ¿òÈ¦ÆğÀ´
+  commentstyle=\color{red!50!green!50!blue!50},%Ç³»ÒÉ«µÄ×¢ÊÍ
+  rulesepcolor=\color{red!20!green!20!blue!20},%´úÂë¿é±ß¿òÎªµ­ÇàÉ«
+  keywordstyle=\color{blue!90}\bfseries, %´úÂë¹Ø¼ü×ÖµÄÑÕÉ«ÎªÀ¶É«£¬´ÖÌå
+  showstringspaces=false,%²»ÏÔÊ¾´úÂë×Ö·û´®ÖĞ¼äµÄ¿Õ¸ñ±ê¼Ç
+  stringstyle=\ttfamily, % ´úÂë×Ö·û´®µÄÌØÊâ¸ñÊ½
   keepspaces=true, %
   breakindent=22pt, %
-  numbers=left,%å·¦ä¾§æ˜¾ç¤ºè¡Œå·
+  numbers=left,%×ó²àÏÔÊ¾ĞĞºÅ
   stepnumber=1,%
-  numberstyle=\tiny, %è¡Œå·å­—ä½“ç”¨å°å·
+  numberstyle=\tiny, %ĞĞºÅ×ÖÌåÓÃĞ¡ºÅ
   basicstyle=\footnotesize, %
   showspaces=false, %
   flexiblecolumns=true, %
-  breaklines=true, %å¯¹è¿‡é•¿çš„ä»£ç è‡ªåŠ¨æ¢è¡Œ
+  breaklines=true, %¶Ô¹ı³¤µÄ´úÂë×Ô¶¯»»ĞĞ
   breakautoindent=true,%
   breakindent=4em, %
-  aboveskip=1em, %ä»£ç å—è¾¹æ¡†
+  aboveskip=1em, %´úÂë¿é±ß¿ò
   %% added by http://bbs.ctex.org/viewthread.php?tid=53451
   fontadjust,
   captionpos=t,
   framextopmargin=2pt,framexbottommargin=2pt,abovecaptionskip=-3pt,belowcaptionskip=3pt,
-  xleftmargin=4em,xrightmargin=4em, % è®¾å®šlistingå·¦å³çš„ç©ºç™½
+  xleftmargin=4em,xrightmargin=4em, % Éè¶¨listing×óÓÒµÄ¿Õ°×
   texcl=true,
-  % è®¾å®šä¸­æ–‡å†²çªï¼Œæ–­è¡Œï¼Œåˆ—æ¨¡å¼ï¼Œæ•°å­¦ç¯å¢ƒè¾“å…¥ï¼Œlistingæ•°å­—çš„æ ·å¼
+  % Éè¶¨ÖĞÎÄ³åÍ»£¬¶ÏĞĞ£¬ÁĞÄ£Ê½£¬ÊıÑ§»·¾³ÊäÈë£¬listingÊı×ÖµÄÑùÊ½
   extendedchars=false,columns=flexible,mathescape=true
   numbersep=-1em
 }
-\renewcommand{\lstlistingname}{ä»£ç } %% é‡å‘½åListingsæ ‡é¢˜å¤´
+\renewcommand{\lstlistingname}{´úÂë} %% ÖØÃüÃûListings±êÌâÍ·
 
 
 %% hyperref package
@@ -226,14 +226,14 @@
 \fi
 \fi
 
-%% enumerate åˆ—è¡¨ç¯å¢ƒé—´è·è°ƒèŠ‚
+%% enumerate ÁĞ±í»·¾³¼ä¾àµ÷½Ú
 % Ref: http://bbs.ctex.org/viewthread.php?tid=52331&page=1
 \usepackage{enumitem}
 % \setenumerate[1]{itemsep=0pt,partopsep=0pt,parsep=\parskip,topsep=5pt}
 % \setitemize[1]{itemsep=0pt,partopsep=0pt,parsep=\parskip,topsep=0pt}
 % \setdescription{itemsep=0pt,partopsep=0pt,parsep=\parskip,topsep=5pt}
 
-%_  å‚è€ƒæ–‡çŒ®é£æ ¼ added by wei.jianwen@gmail.com
+%_  ²Î¿¼ÎÄÏ×·ç¸ñ added by wei.jianwen@gmail.com
 \bibliographystyle{GBT7714-2005NLang}
 % \bibliographystyle{thubib}
 % \newcommand\thudot{\unskip.}
@@ -256,7 +256,7 @@
   \CTEXunderline{\hbox to #1{\hfill#2\hfill}}}
 \def\CASTunderline{\@ifnextchar[\CAST@underline\CTEXunderline}
 
-%%%%ä¸­æ–‡æ ‡é¢˜é¡µçš„å¯ç”¨å‘½ä»¤
+%%%%ÖĞÎÄ±êÌâÒ³µÄ¿ÉÓÃÃüÁî
 \newcommand\classification[1]{\def\CAST@value@classification{#1}}
 \newcommand\studentnumber[1]{\def\CAST@value@studentnumber{#1}}
 \newcommand\confidential[1]{\def\CAST@value@confidential{#1}}
@@ -277,8 +277,8 @@
 \newcommand\chairman[1]{\def\CAST@value@chairman{#1}}
 
 
-%% ç¬¬ä¸€é¡µå’Œç¬¬äºŒé¡µ
-%_ â€œç»˜åˆ¶â€BITä¸­æ–‡æ ‡é¢˜é¡µ
+%% µÚÒ»Ò³ºÍµÚ¶şÒ³
+%_ ¡°»æÖÆ¡±BITÖĞÎÄ±êÌâÒ³
 \renewcommand\maketitle[1]{%
   \cleardoublepage
   \thispagestyle{empty}
@@ -351,7 +351,7 @@
 
 
 % English Title Page
-% è‹±æ–‡æ ‡é¢˜é¡µå¯ç”¨å‘½ä»¤
+% Ó¢ÎÄ±êÌâÒ³¿ÉÓÃÃüÁî
 \newcommand\englishtitle[1]{\def\CAST@value@englishtitle{#1}}
 \newcommand\englishauthor[1]{\def\CAST@value@englishauthor{#1}}
 \newcommand\englishadvisor[1]{\def\CAST@value@englishadvisor{#1}}
@@ -362,7 +362,7 @@
 \newcommand\englishmajor[1]{\def\CAST@value@englishmajor{#1}}
 \newcommand\englishchairman[1]{\def\CAST@value@englishchairman{#1}}
 
-% "ç»˜åˆ¶"è‹±æ–‡æ ‡é¢˜é¡µ
+% "»æÖÆ"Ó¢ÎÄ±êÌâÒ³
 \newcommand\makeenglishtitle[1]{%
   \cleardoublepage
   \thispagestyle{empty}
@@ -405,7 +405,7 @@
   \fi
 }
 
-%ç»˜åˆ¶æ ‘ç«‹æ’æ”¾çš„è®ºæ–‡é¢˜ç›®å’Œå­¦æ ¡åç§°
+%»æÖÆÊ÷Á¢ÅÅ·ÅµÄÂÛÎÄÌâÄ¿ºÍÑ§Ğ£Ãû³Æ
 
 \newcommand\makeVerticalTitle{
    \cleardoublepage
@@ -429,7 +429,7 @@
     \fi
 
 }
-% åŸåˆ›æ€§å£°æ˜
+% Ô­´´ĞÔÉùÃ÷
 \newcommand\makeDeclareOriginal{%
   \cleardoublepage
   \thispagestyle{empty}
@@ -467,32 +467,32 @@
 }
 
 
-%_ é¡µçœ‰é¡µè„š
+%_ Ò³Ã¼Ò³½Å
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[C]{\songti \zihao{5} \CAST@label@headschoolname}  % å¥‡æ•°é¡µå·¦é¡µçœ‰
-\fancyfoot[C]{\songti \zihao{5} ~---~{\thepage}~---~}      % é¡µè„š
+\fancyhead[C]{\songti \zihao{5} \CAST@label@headschoolname}  % ÆæÊıÒ³×óÒ³Ã¼
+\fancyfoot[C]{\songti \zihao{5} ~---~{\thepage}~---~}      % Ò³½Å
 
 
-\fancypagestyle{plain}{% è®¾ç½®å¼€ç« é¡µé¡µçœ‰é¡µè„šé£æ ¼(åªæœ‰é¡µç ä½œä¸ºé¡µè„š)
+\fancypagestyle{plain}{% ÉèÖÃ¿ªÕÂÒ³Ò³Ã¼Ò³½Å·ç¸ñ(Ö»ÓĞÒ³Âë×÷ÎªÒ³½Å)
   \fancyhf{}%
   \fancyfoot[C]{\songti \zihao{5} \CAST@label@headschoolname}
-  \fancyfoot[C]{\songti \zihao{5} ~---~{\thepage}~---~} %%é¦–é¡µé¡µè„šæ ¼å¼
+  \fancyfoot[C]{\songti \zihao{5} ~---~{\thepage}~---~} %%Ê×Ò³Ò³½Å¸ñÊ½
   %\renewcommand{\headrulewidth}{0pt}%
   %\renewcommand{\footrulewidth}{0pt}%
 }
 
-% æ¯ä¸€ç« çš„é¦–é¡µä¹Ÿä½¿ç”¨fancyhdrçš„é¡µçœ‰é¡µè„šè®¾ç½®
+% Ã¿Ò»ÕÂµÄÊ×Ò³Ò²Ê¹ÓÃfancyhdrµÄÒ³Ã¼Ò³½ÅÉèÖÃ
 % \makeatletter
 % \let\ps@plain\relax
 % \let\ps@plain=\ps@fancy
 % \makeatother
 
 
- %_ ä¸­æ–‡æ‘˜è¦
+ %_ ÖĞÎÄÕªÒª
  \newenvironment{abstract}
- %{\chapter[\heiti æ‘˜è¦]{\CAST@value@title\vskip 20pt\CAST@label@abstract}}
- % ä¸æ˜¾ç¤ºè®ºæ–‡é¢˜ç›®
+ %{\chapter[\heiti ÕªÒª]{\CAST@value@title\vskip 20pt\CAST@label@abstract}}
+ % ²»ÏÔÊ¾ÂÛÎÄÌâÄ¿
  {
   \cleardoublepage
   \thispagestyle{empty}
@@ -504,7 +504,7 @@
    %\chapter{\CAST@label@abstract}
  }
  {}
-%ä¸‹ä¸€é¡µä»å¶æ•°é¡µå¼€å§‹
+%ÏÂÒ»Ò³´ÓÅ¼ÊıÒ³¿ªÊ¼
  \newcommand\beginatevenpage{
  \clearpage
   \if@twoside
@@ -512,11 +512,11 @@
     \cleardoublepage
   \fi
  }
- %_ ä¸­æ–‡å…³é”®è¯
+ %_ ÖĞÎÄ¹Ø¼ü´Ê
  \newcommand\keywords[1]{%
    \vspace{2ex}\noindent{\bf \CAST@label@keywords} #1}
 
- %_ è‹±æ–‡æ‘˜è¦
+ %_ Ó¢ÎÄÕªÒª
  \newenvironment{englishabstract}
  %{\chapter[\heiti ABSTRACT]{\CAST@value@englishtitle\vskip 20pt\bfseries \CAST@label@englishabstract}}
  {
@@ -529,7 +529,7 @@
  }
  {}
 
- % _è‹±æ–‡æ‘˜è¦
+ % _Ó¢ÎÄÕªÒª
  \newcommand\englishkeywords[1]{%
   \vspace{2ex}\noindent{\bf \CAST@label@englishkeywords} #1}
 
@@ -538,14 +538,14 @@
 %\makeatletter
 %\renewcommand\section{{\ziti{1}}}
 %\makeatother
-%_ ç›®å½•
+%_ Ä¿Â¼
 \renewcommand\tableofcontents{%
   \if@twocolumn
   \@restonecoltrue\onecolumn
   \else
   \@restonecolfalse
   \fi
-  \chapter*{\contentsname}%ç›®å½•é‡Œæ˜¾ç¤ºâ€œç›®å½•â€ï¼Œå¦åˆ™\chapter*
+  \chapter*{\contentsname}%Ä¿Â¼ÀïÏÔÊ¾¡°Ä¿Â¼¡±£¬·ñÔò\chapter*
   \@mkboth{\MakeUppercase\contentsname}{\MakeUppercase\contentsname}%
   \@starttoc{toc}%
   \if@restonecol\twocolumn\fi
@@ -553,7 +553,7 @@
 
 \addtocontents{toc}{\let\string\CTEX@spaceChar\relax}
 
-%_ å‚è€ƒæ–‡çŒ®ç¯å¢ƒ
+%_ ²Î¿¼ÎÄÏ×»·¾³
 \renewenvironment{thebibliography}[1]
      {\chapter{\bibname}%
       \@mkboth{\MakeUppercase\bibname}{\MakeUppercase\bibname}%
@@ -646,8 +646,8 @@
   {}
 
 
-\setcounter{secnumdepth}{4}  % ç« èŠ‚ç¼–å·æ·±åº¦ (part å¯¹åº” -1)
-\setcounter{tocdepth}{2}     % ç›®å½•æ·±åº¦ (part å¯¹åº” -1)
+\setcounter{secnumdepth}{4}  % ÕÂ½Ú±àºÅÉî¶È (part ¶ÔÓ¦ -1)
+\setcounter{tocdepth}{2}     % Ä¿Â¼Éî¶È (part ¶ÔÓ¦ -1)
 
 
 \newtheoremstyle{break}% name

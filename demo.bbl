@@ -2,9 +2,9 @@
 \begin{thebibliography}{10}
 
 \bibitem{Meta_CN}
-å´”ä¸‡ç…§ï¼Œé©¬ä¼Ÿï¼Œé‚±ä¹å¾³ï¼Œç­‰ï¼
-{ç”µç£è¶…ä»‹è´¨åŠå…¶åº”ç”¨}~[M].
-åŒ—äº¬ï¼šå›½é˜²å·¥ä¸šå‡ºç‰ˆç¤¾ï¼Œ2008ï¼
+´ŞÍòÕÕ£¬ÂíÎ°£¬ÇñÀÖµÂ£¬µÈ£®
+{µç´Å³¬½éÖÊ¼°ÆäÓ¦ÓÃ}~[M].
+±±¾©£º¹ú·À¹¤Òµ³ö°æÉç£¬2008£®
 
 \bibitem{chen2007act}
 Chen~H, Chan~C~T.
@@ -24,9 +24,9 @@ Joannopoulos~J~D, Johnson~S~G, Winn~J~N.
 Princeton University Press, 2008.
 
 \bibitem{zhubajie}
-çŒªå…«æˆ’ï¼
-è®ºæµä½“é£Ÿç‰©çš„æŒä¹…ä¿å­˜~[D]ï¼
-åŒ—äº¬ï¼šå¹¿å¯’å®«å¤§å­¦ï¼Œ2005ï¼
+Öí°Ë½ä£®
+ÂÛÁ÷ÌåÊ³ÎïµÄ³Ö¾Ã±£´æ~[D]£®
+±±¾©£º¹ãº®¹¬´óÑ§£¬2005£®
 
 \bibitem{IEEE-1363}
 {IEEE Std 1363-2000}.
@@ -44,9 +44,9 @@ Differential Power Analysis~[C]~//~Wiener~M.
 In Advances in Cryptology ({CRYPTO}~'99), August 1999:  388--397.
 
 \bibitem{cnproceed}
-ç‹é‡é˜³ï¼Œé»„è¯å¸ˆï¼Œæ¬§é˜³å³°ï¼Œç­‰ï¼
-æ­¦æ—é«˜æ‰‹ä»å…¥é—¨åˆ°ç²¾é€š~[C]ï¼
-In ç¬¬~$N$~æ¬¡åå±±è®ºå‰‘ï¼Œè¥¿å®‰, ä¸­å›½ï¼ŒSeptember 2006ï¼
+ÍõÖØÑô£¬»ÆÒ©Ê¦£¬Å·Ñô·å£¬µÈ£®
+ÎäÁÖ¸ßÊÖ´ÓÈëÃÅµ½¾«Í¨~[C]£®
+In µÚ~$N$~´Î»ªÉ½ÂÛ½££¬Î÷°², ÖĞ¹ú£¬September 2006£®
 
 \bibitem{metamori2004}
 Jeyakumar~A~R.
@@ -54,9 +54,9 @@ Metamori: A library for Incremental File Checkpointing~[D].
 Blacksburg: Virgina Tech, 2004.
 
 \bibitem{shaheshang}
-æ²™å’Œå°šï¼
-è®ºæµæ²™æ²³çš„ç»¼åˆæ²»ç†~[D]ï¼
-åŒ—äº¬ï¼šæ¸…åå¤§å­¦ï¼Œ2005ï¼
+É³ºÍÉĞ£®
+ÂÛÁ÷É³ºÓµÄ×ÛºÏÖÎÀí~[D]£®
+±±¾©£ºÇå»ª´óÑ§£¬2005£®
 
 \bibitem{FistSystem01}
 Zadok~E.
@@ -64,9 +64,9 @@ Zadok~E.
 USA: Computer Science Department, Columbia University, 2001.
 
 \bibitem{bai2008}
-ç™½äº‘èŠ¬ï¼
-{ä¿¡ç”¨é£é™©ä¼ æŸ“æ¨¡å‹å’Œä¿¡ç”¨è¡ç”Ÿå“çš„å®šä»·}~[D].
-ä¸Šæµ·ï¼šä¸Šæµ·äº¤é€šå¤§å­¦ï¼Œ2008ï¼
+°×ÔÆ·Ò£®
+{ĞÅÓÃ·çÏÕ´«È¾Ä£ĞÍºÍĞÅÓÃÑÜÉúÆ·µÄ¶¨¼Û}~[D].
+ÉÏº££ºÉÏº£½»Í¨´óÑ§£¬2008£®
 
 \bibitem{NPB2}
 Woo~A, Bailey~D, Yarrow~M, et~al.
@@ -75,9 +75,9 @@ The {NAS} Parallel Benchmarks 2.0~[R/OL].
 \url{http://www.nasa.org/}.
 
 \bibitem{xiaoyu2001}
-è§é’°ï¼
-å‡ºç‰ˆä¸šä¿¡æ¯åŒ–è¿ˆäººå¿«è½¦é“ï¼
-2001ï¼
+ÏôîÚ£®
+³ö°æÒµĞÅÏ¢»¯ÂõÈË¿ì³µµÀ£®
+2001£®
 \url{http:// www.creader.com/ news/20011219/200112190019.html}.
 
 \bibitem{CHRISTINE1998}

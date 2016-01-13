@@ -1,49 +1,49 @@
-ï»¿%%==================================================
-%% è¿™æ˜¯ä¸€ä¸ªå…³äºbitç¡•å£«è®ºæ–‡æ¨¡æ¿çš„ä¾‹å­
-%% ç”±å¤§çœ¼å°èš‚èšæ ¹æ®äº¤å¤§çš„æ¨¡æ¿ä¿®ä¸ªå¾—åˆ°çš„
+%%==================================================
+%% ÕâÊÇÒ»¸ö¹ØÓÚbitË¶Ê¿ÂÛÎÄÄ£°åµÄÀı×Ó
+%% ÓÉ´óÑÛĞ¡ÂìÒÏ¸ù¾İ½»´óµÄÄ£°åĞŞ¸öµÃµ½µÄ
 %% Encoding: UTF-8
 %% last update: Dec 5th, 2010
 %%==================================================
 
-% å­—å·é€‰é¡¹: c5size äº”å·(é»˜è®¤)
-% å­—å·é€‰é¡¹: cs4size å°å››
-% åŒé¢æ‰“å°ï¼ˆæ³¨æ„å­—å·è®¾ç½®ï¼‰
+% ×ÖºÅÑ¡Ïî: c5size ÎåºÅ(Ä¬ÈÏ)
+% ×ÖºÅÑ¡Ïî: cs4size Ğ¡ËÄ
+% Ë«Ãæ´òÓ¡£¨×¢Òâ×ÖºÅÉèÖÃ£©
 % \documentclass[cs4size, a4paper, cs4size, twoside]{bitmaster-xetex} 
-% å•é¢æ‰“å°ï¼ˆæ³¨æ„å­—å·è®¾ç½®ï¼‰
+% µ¥Ãæ´òÓ¡£¨×¢Òâ×ÖºÅÉèÖÃ£©
 \documentclass[cs4size, a4paer, cs4size, twoside, openany]{bitmaster-xetex} 
 
 
 \newboolean{DOIT}
 \setboolean{DOIT}{false}
-%ç¼–è¯‘æŸäº›åªæƒ³è‡ªå·±çœ‹çš„å†…å®¹ï¼Œç¼–è¯‘trueï¼Œå¦åˆ™false
+%±àÒëÄ³Ğ©Ö»Ïë×Ô¼º¿´µÄÄÚÈİ£¬±àÒëtrue£¬·ñÔòfalse
 
-%% è¡Œè·ç¼©æ”¾å› å­(xå€å­—å·)
+%% ĞĞ¾àËõ·ÅÒò×Ó(x±¶×ÖºÅ)
 
-% è®¾ç½®å›¾å½¢æ–‡ä»¶çš„æœç´¢è·¯å¾„
+% ÉèÖÃÍ¼ĞÎÎÄ¼şµÄËÑË÷Â·¾¶
 \graphicspath{{figure/}{figures/}{logo/}{logos/}{graph/}{graphs}}
 
 %%========================================
-%% åœ¨bitmaster-xetex.clsä¸­å®šä¹‰çš„æœ‰ç”¨å‘½ä»¤
+%% ÔÚbitmaster-xetex.clsÖĞ¶¨ÒåµÄÓĞÓÃÃüÁî
 %%========================================
-% \cndash ä¸­æ–‡ç ´æŠ˜å·
-% æ•°å­¦å¸¸é‡
-% \me å¯¹æ•°å¸¸æ•°e
-% \mi è™šæ•°å•ä½i
-% \mj è™šæ•°å•ä½j
-% \dif ç›´ç«‹çš„å¾®åˆ†ç®—ç¬¦dä¸ºç›´ç«‹ä½“ã€‚
-% å¯ä¼¸é•¿çš„æ•°å­¦ç®­å¤´ã€ç­‰å·
+% \cndash ÖĞÎÄÆÆÕÛºÅ
+% ÊıÑ§³£Á¿
+% \me ¶ÔÊı³£Êıe
+% \mi ĞéÊıµ¥Î»i
+% \mj ĞéÊıµ¥Î»j
+% \dif Ö±Á¢µÄÎ¢·ÖËã·ûdÎªÖ±Á¢Ìå¡£
+% ¿ÉÉì³¤µÄÊıÑ§¼ıÍ·¡¢µÈºÅ
 % \myRightarrow{}{}
 % \myLeftarrow{}{}
 % \myBioarrow{}{}
 % \myLongEqual{}{}
-% å‚è€ƒæ–‡çŒ®
-% \upcite{} ä¸Šæ ‡å¼•ç”¨
+% ²Î¿¼ÎÄÏ×
+% \upcite{} ÉÏ±êÒıÓÃ
 %%========================================
-%è°ƒèŠ‚æ®µè½é—´éš”ä½¿ç”¨
-%\inv å‹ç¼©é—´éš”
-%\smallinv ç•¥å¾®å‹ç¼©é—´éš”
-%\forw æ‰©å¤§é—´éš”
-%\smallforw ç•¥å¾®æ‰©å¤§é—´éš”
+%µ÷½Ú¶ÎÂä¼ä¸ôÊ¹ÓÃ
+%\inv Ñ¹Ëõ¼ä¸ô
+%\smallinv ÂÔÎ¢Ñ¹Ëõ¼ä¸ô
+%\forw À©´ó¼ä¸ô
+%\smallforw ÂÔÎ¢À©´ó¼ä¸ô
 \def\inv{\vspace*{-8pt}}
 \def\smallinv{\vspace*{-3pt}}
 \def\forw{\vspace*{5pt}}
@@ -53,26 +53,26 @@
 \begin{document}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
-%% å°é¢
+%% ·âÃæ
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 
-% ä¸­æ–‡å°é¢å†…å®¹(å…³æ³¨å†…å®¹è€Œä¸æ˜¯å½¢å¼)
+% ÖĞÎÄ·âÃæÄÚÈİ(¹Ø×¢ÄÚÈİ¶ø²»ÊÇĞÎÊ½)
 \classification{TQ028.1}
 \UDC{111}
 
-\title{\LARGE{BITç¡•å£«è®ºæ–‡\LaTeX æ¨¡æ¿}}
-\author{å¤§çœ¼å°èš‚èš}
-\institute{æœºç”µå­¦é™¢}
-\advisor{æ•™æˆ}
-\chairman{ç¦»æ•£}
-\degree{å·¥å­¦ç¡•å£«}
-\major{å…µå™¨ç§‘å­¦ä¸æŠ€æœ¯}
-\school{åŒ—äº¬ç†å·¥å¤§å­¦}
-\defenddate{2012å¹´12æœˆ}
+\title{\LARGE{BITË¶Ê¿ÂÛÎÄ\LaTeX Ä£°å}}
+\author{´óÑÛĞ¡ÂìÒÏ}
+\institute{»úµçÑ§Ôº}
+\advisor{½ÌÊÚ}
+\chairman{ÀëÉ¢}
+\degree{¹¤Ñ§Ë¶Ê¿}
+\major{±øÆ÷¿ÆÑ§Óë¼¼Êõ}
+\school{±±¾©Àí¹¤´óÑ§}
+\defenddate{2012Äê12ÔÂ}
 \studentnumber{2120100277}
 
 
-% è‹±æ–‡å°é¢å†…å®¹(å…³æ³¨å†…å®¹è€Œä¸æ˜¯è¡¨ç°å½¢å¼)
+% Ó¢ÎÄ·âÃæÄÚÈİ(¹Ø×¢ÄÚÈİ¶ø²»ÊÇ±íÏÖĞÎÊ½)
 \englishtitle{Template for BIT Mater Degree Thesis}
 \englishauthor{}
 \englishadvisor{Prof.San Zhang}
@@ -82,103 +82,103 @@
 \englishmajor{Physics}
 \englishdate{Dec, 2012} 
 
-% å°é¢,è¿™ä¸ªå‘½ä»¤å®ç°äº†å½¢å¼ï¼Œå…·ä½“è§.cls
+% ·âÃæ,Õâ¸öÃüÁîÊµÏÖÁËĞÎÊ½£¬¾ßÌå¼û.cls
 \maketitle
 
 
-% è‹±æ–‡å°é¢
+% Ó¢ÎÄ·âÃæ
 \makeenglishtitle
 
-%æ‰“å°ç«–æ’è®ºæ–‡é¢˜ç›®
+%´òÓ¡ÊúÅÅÂÛÎÄÌâÄ¿
 \makeVerticalTitle
 
-% è®ºæ–‡åŸåˆ›æ€§å£°æ˜å’Œä½¿ç”¨æˆæƒ
+% ÂÛÎÄÔ­´´ĞÔÉùÃ÷ºÍÊ¹ÓÃÊÚÈ¨
 \makeDeclareOriginal
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
-%% å‰è¨€
+%% Ç°ÑÔ
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 \frontmatter
 \pagenumbering{Roman}
 
-\fancypagestyle{plain}{% è®¾ç½®å¼€ç« é¡µé¡µçœ‰é¡µè„šé£æ ¼
+\fancypagestyle{plain}{% ÉèÖÃ¿ªÕÂÒ³Ò³Ã¼Ò³½Å·ç¸ñ
   \fancyhf{}%
-  \fancyhead[C]{\zihao{5} {\songti åŒ—äº¬ç†å·¥å¤§å­¦ç¡•å£«å­¦ä½è®ºæ–‡}}  % å¥‡æ•°é¡µå·¦é¡µçœ‰
-  %\fancyhead[RO]{\small {\it \leftmark}}                   % å¥‡æ•°é¡µå·¦é¡µçœ‰
-  %\fancyhead[LE]{\small {\it \CAST@value@titlemark}} 	 % å¶æ•°é¡µå·¦é¡µçœ‰
-  %\fancyhead[RE]{\small {\it åŒ—äº¬ç†å·¥å¤§å­¦ç¡•å£«å­¦ä½è®ºæ–‡}}       % å¶æ•°é¡µå³é¡µçœ‰
-  \fancyfoot[C]{\zihao{5} ~---~{\songti \thepage}~---~} %é¡µè„šæ ¼å¼
+  \fancyhead[C]{\zihao{5} {\songti ±±¾©Àí¹¤´óÑ§Ë¶Ê¿Ñ§Î»ÂÛÎÄ}}  % ÆæÊıÒ³×óÒ³Ã¼
+  %\fancyhead[RO]{\small {\it \leftmark}}                   % ÆæÊıÒ³×óÒ³Ã¼
+  %\fancyhead[LE]{\small {\it \CAST@value@titlemark}} 	 % Å¼ÊıÒ³×óÒ³Ã¼
+  %\fancyhead[RE]{\small {\it ±±¾©Àí¹¤´óÑ§Ë¶Ê¿Ñ§Î»ÂÛÎÄ}}       % Å¼ÊıÒ³ÓÒÒ³Ã¼
+  \fancyfoot[C]{\zihao{5} ~---~{\songti \thepage}~---~} %Ò³½Å¸ñÊ½
 }
 
-% æ‘˜è¦
+% ÕªÒª
 \include{body/abstract}
 
-% ç›®å½•
+% Ä¿Â¼
 \tableofcontents
-% è¡¨æ ¼ç´¢å¼•
+% ±í¸ñË÷Òı
 %\listoftables
-% æ’å›¾ç´¢å¼•
+% ²åÍ¼Ë÷Òı
 %\listoffigures
 
-%\addcontentsline{toc}{chapter}{\listfigurename} %å°†è¡¨æ ¼ç´¢å¼•åŠ å…¥å…¨æ–‡ç›®å½•
-%\addcontentsline{toc}{chapter}{\listtablename}  %å°†å›¾ç´¢å¼•åŠ å…¥å…¨æ–‡ç›®å½•
+%\addcontentsline{toc}{chapter}{\listfigurename} %½«±í¸ñË÷Òı¼ÓÈëÈ«ÎÄÄ¿Â¼
+%\addcontentsline{toc}{chapter}{\listtablename}  %½«Í¼Ë÷Òı¼ÓÈëÈ«ÎÄÄ¿Â¼
 
-% ä¸»è¦ç¬¦å·ã€ç¼©ç•¥è¯å¯¹ç…§è¡¨
+% Ö÷Òª·ûºÅ¡¢ËõÂÔ´Ê¶ÔÕÕ±í
 % \include{body/symbol}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
-%% æ­£æ–‡
+%% ÕıÎÄ
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 \mainmatter
 
-\fancypagestyle{plain}{% è®¾ç½®å¼€ç« é¡µé¡µçœ‰é¡µè„šé£æ ¼
+\fancypagestyle{plain}{% ÉèÖÃ¿ªÕÂÒ³Ò³Ã¼Ò³½Å·ç¸ñ
   \fancyhf{}%
-  \fancyhead[C]{\zihao{5} {\songti åŒ—äº¬ç†å·¥å¤§å­¦ç¡•å£«å­¦ä½è®ºæ–‡}}  % å¥‡æ•°é¡µå·¦é¡µçœ‰
-  %\fancyhead[RO]{\small {\it \leftmark}}                   % å¥‡æ•°é¡µå·¦é¡µçœ‰
-  %\fancyhead[LE]{\small {\it \CAST@value@titlemark}} 	 % å¶æ•°é¡µå·¦é¡µçœ‰
-  %\fancyhead[RE]{\small {\it åŒ—äº¬ç†å·¥å¤§å­¦ç¡•å£«å­¦ä½è®ºæ–‡}}       % å¶æ•°é¡µå³é¡µçœ‰
-  \fancyfoot[C]{\zihao{5} ~---~{\songti \thepage}~---~} %é¡µè„šæ ¼å¼
+  \fancyhead[C]{\zihao{5} {\songti ±±¾©Àí¹¤´óÑ§Ë¶Ê¿Ñ§Î»ÂÛÎÄ}}  % ÆæÊıÒ³×óÒ³Ã¼
+  %\fancyhead[RO]{\small {\it \leftmark}}                   % ÆæÊıÒ³×óÒ³Ã¼
+  %\fancyhead[LE]{\small {\it \CAST@value@titlemark}} 	 % Å¼ÊıÒ³×óÒ³Ã¼
+  %\fancyhead[RE]{\small {\it ±±¾©Àí¹¤´óÑ§Ë¶Ê¿Ñ§Î»ÂÛÎÄ}}       % Å¼ÊıÒ³ÓÒÒ³Ã¼
+  \fancyfoot[C]{\zihao{5} ~---~{\songti \thepage}~---~} %Ò³½Å¸ñÊ½
 }
 
 
-%% å„ç« æ­£æ–‡å†…å®¹
+%% ¸÷ÕÂÕıÎÄÄÚÈİ
 \include{body/chapter01}
 \include{body/chapter02}
 \include{body/chapter03}
-\include{body/conclusion} %% å…¨æ–‡æ€»ç»“
+\include{body/conclusion} %% È«ÎÄ×Ü½á
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
-%% é™„å½•(ç« èŠ‚ç¼–å·é‡æ–°è®¡ç®—ï¼Œä½¿ç”¨å­—æ¯è¿›è¡Œç¼–å·)
+%% ¸½Â¼(ÕÂ½Ú±àºÅÖØĞÂ¼ÆËã£¬Ê¹ÓÃ×ÖÄ¸½øĞĞ±àºÅ)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 \appendix
 
-% é™„å½•ä¸­ç¼–å·å½¢å¼æ˜¯"A-1"çš„æ ·å­
+% ¸½Â¼ÖĞ±àºÅĞÎÊ½ÊÇ"A-1"µÄÑù×Ó
 \renewcommand\theequation{\Alph{chapter}--\arabic{equation}}
 \renewcommand\thefigure{\Alph{chapter}--\arabic{figure}}
 \renewcommand\thetable{\Alph{chapter}--\arabic{table}}
 
-\include{body/app1} % æ›´æ–°è®°å½•
-\include{body/app2} % éº¦å…‹æ–¯éŸ¦æ–¹ç¨‹
+\include{body/app1} % ¸üĞÂ¼ÇÂ¼
+\include{body/app2} % Âó¿ËË¹Î¤·½³Ì
 % \include{body/app3}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
-%% æ–‡å(æ— ç« èŠ‚ç¼–å·)
+%% ÎÄºó(ÎŞÕÂ½Ú±àºÅ)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 \backmatter
 
-% å‚è€ƒæ–‡çŒ®
-% ä½¿ç”¨ BibTeX
-% åŒ…å«å‚è€ƒæ–‡çŒ®æ–‡ä»¶.bib
+% ²Î¿¼ÎÄÏ×
+% Ê¹ÓÃ BibTeX
+% °üº¬²Î¿¼ÎÄÏ×ÎÄ¼ş.bib
 {
 \zihao{5}
 \bibliography{reference/chap1,reference/chap2}
 }
-% å‘è¡¨æ–‡ç« ç›®å½•
+% ·¢±íÎÄÕÂÄ¿Â¼
 \include{body/pub}
 
-% è‡´è°¢
+% ÖÂĞ»
 \include{body/thanks}
 
 \end{document}
