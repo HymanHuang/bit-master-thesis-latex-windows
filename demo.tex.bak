@@ -8,9 +8,9 @@
 % 字号选项: c5size 五号(默认)
 % 字号选项: cs4size 小四
 % 双面打印（注意字号设置）
-% \documentclass[cs4size, a4paper, cs4size, twoside]{bitmaster-xetex} 
+% \documentclass[cs4size, a4paper, cs4size, twoside]{bitmaster-xetex}
 % 单面打印（注意字号设置）
-\documentclass[cs4size, a4paer, cs4size, twoside, openany]{bitmaster-xetex} 
+\documentclass[cs4size, a4paer, cs4size, twoside, openany]{bitmaster-xetex}
 
 
 \newboolean{DOIT}
@@ -52,9 +52,9 @@
 
 \begin{document}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% 封面
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % 中文封面内容(关注内容而不是形式)
 \classification{TQ028.1}
@@ -75,12 +75,13 @@
 % 英文封面内容(关注内容而不是表现形式)
 \englishtitle{Template for BIT Mater Degree Thesis}
 \englishauthor{}
+\englishchairman{WU Qinghe}
 \englishadvisor{Prof.San Zhang}
 \englishschool{Beijing Insititute of Technology}
-\englishinstitute{Depart of XXX} 
+\englishinstitute{Depart of XXX}
 \englishdegree{Master}
 \englishmajor{Physics}
-\englishdate{Dec, 2012} 
+\englishdate{Dec, 2012}
 
 % 封面,这个命令实现了形式，具体见.cls
 \maketitle
@@ -95,9 +96,9 @@
 % 论文原创性声明和使用授权
 \makeDeclareOriginal
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% 前言
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \frontmatter
 \pagenumbering{Roman}
 
@@ -126,9 +127,9 @@
 % 主要符号、缩略词对照表
 % \include{body/symbol}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% 正文
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \mainmatter
 
 \fancypagestyle{plain}{% 设置开章页页眉页脚风格
@@ -148,9 +149,9 @@
 \include{body/conclusion} %% 全文总结
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% 附录(章节编号重新计算，使用字母进行编号)
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \appendix
 
 % 附录中编号形式是"A-1"的样子
@@ -163,9 +164,9 @@
 % \include{body/app3}
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% 文后(无章节编号)
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \backmatter
 
 % 参考文献
